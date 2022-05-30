@@ -1,0 +1,97 @@
+/** GENERALES **/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+}
+
+header {
+  	position: relative;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	visibility: hidden;
+}
+
+h2 {
+	font-weight: 800;
+}
+
+a {
+	color:black;
+}
+		
+a:hover {
+	color: white;
+}
+
+
+li {
+	list-style:none;
+}
+
+section {
+	margin: 5em 0;
+}
+
+/* MENU  */
+
+nav div ul li:hover {
+	border-radius: 2em;
+	color: white;
+	background-color: #00a6a6;
+}
+
+nav div ul li {
+	margin-right: 1em;
+	padding: 0 1em;
+}
+
+
+
+.navbar .navbar-toggler-icon{
+    background: url("img/menu.png") no-repeat center center;
+}
+      
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/* DISEÑO */
+
+.celeste {
+	color: #00a6a6;
+}
+
+.violeta {
+	color: #5e0059;
+}
+
+.fondo {
+	background-color: #00a6a6;
+}
+
+/* NOSOTROS */
+#nosotros {
+	background-color: rgba(0, 166, 166, 0.2) ;
+	background-image: url(img/fondo_S.png);
+	height: 20em;
+}
+
+/* FOOTER */ 
+footer {
+	background-color: #345554;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer span {
+	font-weight: bold;
+}
