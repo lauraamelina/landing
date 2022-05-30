@@ -34,8 +34,16 @@ li {
 	list-style:none;
 }
 
+ul {
+	padding: 0;
+}
+
 section {
 	margin: 5em 0;
+}
+
+.hidden {
+	visibility: hidden;
 }
 
 /* MENU  */
@@ -78,15 +86,64 @@ nav div ul li {
 /* NOSOTROS */
 #nosotros {
 	background-color: rgba(0, 166, 166, 0.2) ;
-	background-image: url(img/fondo_S.png);
-	height: 20em;
+	height: 40em;
 }
 
+.card img {
+	padding: 2em;
+}
+
+
 /* FOOTER */ 
+
+/* Footer */
+
 footer {
 	background-color: #345554;
 	color: white;
+	padding-top: 2em;
+   
 }
+
+footer p {
+	margin: 0;
+}
+
+.redes ul li {
+    display: inline-block;
+    margin: 1em 0;
+}
+
+.redes a {
+    font-size: 0;
+    display: block;
+}
+
+#fb {
+    background-image: url(img/facebook.png);
+    width: 45px;
+    height: 45px;
+}
+
+#ig {
+    background-image: url(img/instagram.png);
+    width: 45px;
+    height: 45px;
+}
+
+#wp {
+    background-image: url(img/whatsapp.png);
+    width: 45px;
+    height: 45px;
+}
+
+@media screen and (max-width: 500px) {
+    .redes ul li {
+        display: block;
+        margin: .5em;
+    }
+}
+
 
 footer a {
 	color: white;
