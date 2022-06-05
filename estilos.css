@@ -115,7 +115,10 @@ nav div ul li {
 }
 
 /* DESCARGA */
- 
+
+ #descarga {
+	 padding-left: 0 !important;
+ }
 
 /* FOOTER */ 
 
