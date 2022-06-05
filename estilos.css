@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background-color: white;
+
 }
 
 header {
@@ -27,6 +27,10 @@ a {
 		
 a:hover {
 	color: white;
+}
+
+.fw-bold {
+	font-weight: bold;
 }
 
 
@@ -61,6 +65,8 @@ nav div ul li {
 
 
 
+
+
 .navbar .navbar-toggler-icon{
     background: url("img/menu.png") no-repeat center center;
 }
@@ -79,24 +85,34 @@ nav div ul li {
 	color: #5e0059;
 }
 
+
 .fondo {
 	background-color: #00a6a6;
 }
 
+.problema {
+	background: url(img/fondo_logo.jpg) repeat-y right center;
+}
+
 /* NOSOTROS */
 #nosotros {
-	background-color: rgba(0, 166, 166, 0.2) ;
 	height: 40em;
+	background: url(img/pattern.png) no-repeat center center ;
+}
+
+#nosotros .row p {
+	color: black;
 }
 
 .card img {
 	padding: 2em;
 }
 
+/* DESCARGA */
+ 
 
 /* FOOTER */ 
 
-/* Footer */
 
 footer {
 	background-color: #345554;
